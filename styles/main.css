@@ -1,0 +1,146 @@
+html,body
+{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:"Century Gothic";
+}
+
+body
+{
+  background-color:#252530;
+  color:#bbbbbb;
+}
+#footer
+{
+  position:fixed;
+  bottom:0;
+  left:0;
+  text-align: center;
+  font-family:"Courier New";
+  color:#00ff00;
+  font-size:2em;
+  width:100%;
+  background-color:#101015;
+}
+a.noLink
+{
+  color:inherit;
+  text-decoration: none;
+}
+a.noLink:visited
+{
+  color:inherit;
+  text-decoration:none;
+}
+a.noLink:active
+{
+  color:#00de00;
+  text-decoration:none;
+}
+a.noLink:hover
+{
+  color:#00ef00;
+  text-decoration:none;
+}
+#menuBar
+{
+  background-color:#101015;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index:99;
+}
+img.logoImg
+{
+  float:right;
+  height:3em;
+  margin-top:1em;
+}
+#menuList
+{
+  float:left;
+}
+li.menuItem
+{
+  float:left;
+  margin-right:3em;
+  padding-top:0em;
+  padding-bottom:0.5em;
+}
+li.menuItem a
+{
+  text-decoration:none;
+  color:inherit;
+}
+
+li.menuItem a:hover
+{
+  color:#cccccc;
+  text-decoration:none;
+}
+li.menuItem a:active
+{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+li.menuItem a:visited
+{
+  color:#inherit;
+  text-decoration:none;
+}
+li#signupLink
+{
+  float:right;
+}
+
+li
+{
+  line-height: 2;
+}
+
+div.miniBody
+{
+  height:100%;
+  width:100%;
+  float:none;
+  position:relative;
+}
+
+div.contentBlock
+{
+  position:absolute;
+  text-align:left;
+  float:none;
+  width:60%;
+  height:40%;
+  color:#eeeeee;
+  top:30%;
+  left:1em;
+}
+div.contentBlock h2
+{
+  font-family: "Courier New";
+  text-decoration:none;
+  font-weight:normal;
+  letter-spacing: 2.5;
+  line-height: 1;
+}
+div.contentBlock h4
+{
+  font-family: "Courier New";
+  text-decoration:none;
+  font-weight:normal;
+  color:#999999;
+  line-height: 0.6;
+  letter-spacing: 1;
+}
+
+strong.yellow
+{
+  color:#00ff00;
+  font-weight:normal;
+}
